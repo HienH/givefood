@@ -1,0 +1,54 @@
+
+.hi {
+ 
+    background-image:url('givinghands.jpg');
+    width: 100%;
+    min-height: 450px;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.give{
+    background-image:url('givefood.jpg');
+    opacity: 0.80;
+    height: 500px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+.help {
+    background-image:url('helping.jpg');
+    opacity: 0.80;
+    height: 500px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pimg1 {
+    background-image:url(thx.png);
+    width: 100%;
+    height: 400px;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.white {
+    background-image: white;
+    height: 50px;
+}
+.footer {
+    background-color: black;
+    text-decoration-color: azure;
+}

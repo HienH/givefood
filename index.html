@@ -1,0 +1,143 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<script src="index.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">GIVE FOOD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron hi">
+          <h1 class="display-4">Hello, world!</h1>
+          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <hr class="my-4">
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+
+      <section class="container-fluid">
+          <div class="row">
+              <div class="col-lg-6 help">
+                <h1>Search</h1>
+                <button type="button" onclick="document.location='./selection.html'"> click </button>
+
+                <button type="button" class="btn btn-outline-warning" data-toggle='modal' data-target='#mymodal'>hello</button>
+              </div>
+              <div class="col-lg-6 give">
+                  <h1>give</h1>
+                  <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">
+                    Donate
+                  </button>
+              </div>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1">Email address</label>
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                  
+                                <div class="form-group">
+                                  <label for="exampleFormControlFile1">Example file input</label>
+                                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                                <h3>expiry date</h3>
+                                <input type='date'>
+
+                                  
+                            </form>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+          </div>
+              
+      </section>
+      <section class="container-fluid">
+          <div class="row white">         
+            
+          </div>
+          </div>
+      </section>
+      <section class="container-fluid">
+          <div class="pimg1">
+           </div>
+          </div>
+      </section>
+
+      <footer class="footer font-small blue">
+          <div class="row">
+              <div class="col-lg-5 fot">
+                  <h4> OPENING TIMES</h4>
+                  <p>Sunday - Thursday: 11.30am - 10.30pm <br>Friday - Saturday: 11.30am - 11.00pm </p>
+                
+              </div>
+              <div class="col-lg-3 fot">
+                  <h4>SOCIAL MEDIA</h4>
+                  <ul>
+                      <li>Facebook</li>
+                      <li>Instagram</li>
+                      <li>Sign up</li>
+                    </ul>
+           </div>
+            
+               <div class="col-lg-3 fot">
+                  <h4>CONTACT US</h4>
+                  <p>Call: 07700 900529
+                    <br>
+                    Email:lalalashes@googlemail.com
+                  </p>
+           </div>
+         
+              
+          </div>
+          <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+          </div>  
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
