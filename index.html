@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <script src="index.js"></script>
 </head>
 <body>
@@ -19,34 +19,49 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ">
             <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">About us</a>
             <a class="nav-item nav-link" href="#">Contact</a>
           </div>
         </div>
       </nav>
 
       <div class="jumbotron hi">
-          <h1 class="display-4">Hello, world!</h1>
-          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <h1 class="display-4">Don't waste what others need</h1>
+          <p class="lead">  At Givefood we want to prevent food waste while helping those in need.</p>
           <hr class="my-4">
-          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          <p>We belive in the philosophy of sharing to bring a better community. Our food sharing platform provides an easy solution to reduce food waste while helping to prevent hunger.</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn how to participate</a>
       </div>
 
       <section class="container-fluid">
           <div class="row">
               <div class="col-lg-6 help">
-                <h1>Search</h1>
-                <button type="button" onclick="document.location='./selection.html'"> click </button>
-
-                <button type="button" class="btn btn-outline-warning" data-toggle='modal' data-target='#mymodal'>hello</button>
+                <div class ='helptext'>
+                <h1 class ='bold_header'>We can help</h1>
+                <p>Are you having difficulty purchasing enough food to avoid hunger?
+                  <br>
+                  We all need a helping hand sometimes. Here you will find a lot of people willing to help you.
+                  <br>
+                  <i>"Hoy por ti, mañana por mi."</i>
+                  
+                </p>
+              
+                <button type="button" class="btn btn-outline-warning" onclick="document.location='./selection.html'"> Search </button>
+              </div>
               </div>
               <div class="col-lg-6 give">
-                  <h1>give</h1>
-                  <!-- Button trigger modal -->
-                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">
-                    Donate
-                  </button>
+                <div class = 'givetext helptext'>
+                    <h1 class=bold_header>Helping Others</h1>
+                    <p> Share with others of food you dont need
+                      <br>
+                        donate today for a more united community   
+                    </p>
+                    <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">
+                      Donate
+                    </button>
+                </div>
+                  
               </div>
                   
                   <!-- Modal -->
@@ -62,27 +77,24 @@
                         <div class="modal-body">
                             <form>
                                 <div class="form-group">
-                                  <label for="exampleFormControlInput1">Email address</label>
+                                  <label for="exampleFormControlInput1">Contact Email</label>
                                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                                    <label for="exampleFormControlTextarea1">Products to donate</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                   </div>
                                   
                                 <div class="form-group">
-                                  <label for="exampleFormControlFile1">Example file input</label>
+                                  <label for="exampleFormControlFile1">Images</label>
                                   <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                 </div>
-                                <h3>expiry date</h3>
+                                <h3>Expiration date</h3>
                                 <input type='date'>
-
-                                  
                             </form>
-
                         </div>
                         <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Discard changes</button>
                           <button type="button" class="btn btn-primary">Save changes</button>
                         </div>
                       </div>
